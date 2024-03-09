@@ -1,0 +1,168 @@
+Flow report for Apple-I_poseidon-ep4cgx150
+Sat Mar  9 02:31:08 2024
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Sat Mar  9 02:31:04 2024       ;
+; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                      ; Apple-I_poseidon-ep4cgx150                  ;
+; Top-level Entity Name              ; poseidon_top                                ;
+; Family                             ; Cyclone IV GX                               ;
+; Device                             ; EP4CGX150DF27I7                             ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 1,984 / 149,760 ( 1 % )                     ;
+;     Total combinational functions  ; 1,822 / 149,760 ( 1 % )                     ;
+;     Dedicated logic registers      ; 803 / 149,760 ( < 1 % )                     ;
+; Total registers                    ; 803                                         ;
+; Total pins                         ; 77 / 426 ( 18 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 131,584 / 6,635,520 ( 2 % )                 ;
+; Embedded Multiplier 9-bit elements ; 0 / 720 ( 0 % )                             ;
+; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                               ;
+; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                               ;
+; Total GXB Transmitter Channel PCS  ; 0 / 8 ( 0 % )                               ;
+; Total GXB Transmitter Channel PMA  ; 0 / 8 ( 0 % )                               ;
+; Total PLLs                         ; 1 / 8 ( 13 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------+
+; Flow Settings                                  ;
++-------------------+----------------------------+
+; Option            ; Setting                    ;
++-------------------+----------------------------+
+; Start date & time ; 03/09/2024 02:29:55        ;
+; Main task         ; Compilation                ;
+; Revision Name     ; Apple-I_poseidon-ep4cgx150 ;
++-------------------+----------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                      ;
++--------------------------------------------------------+---------------------------------------------------------------------+----------------------------+--------------+------------+
+; Assignment Name                                        ; Value                                                               ; Default Value              ; Entity Name  ; Section Id ;
++--------------------------------------------------------+---------------------------------------------------------------------+----------------------------+--------------+------------+
+; ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS                ; Off                                                                 ; On                         ; --           ; --         ;
+; AUTO_GLOBAL_MEMORY_CONTROLS                            ; -- (Not supported for targeted family)                              ; Off                        ; --           ; --         ;
+; AUTO_MERGE_PLLS                                        ; Off                                                                 ; On                         ; --           ; --         ;
+; BLOCK_RAM_AND_MLAB_EQUIVALENT_PAUSED_READ_CAPABILITIES ; -- (Not supported for targeted family)                              ; Care                       ; --           ; --         ;
+; COMPILER_SIGNATURE_ID                                  ; 5025762969300.170994779560523                                       ; --                         ; --           ; --         ;
+; ENABLE_CLOCK_LATENCY                                   ; On                                                                  ; Off                        ; --           ; --         ;
+; ENABLE_RECOVERY_REMOVAL_ANALYSIS                       ; On                                                                  ; Off                        ; --           ; --         ;
+; FINAL_PLACEMENT_OPTIMIZATION                           ; Always                                                              ; Automatically              ; --           ; --         ;
+; FITTER_EFFORT                                          ; Standard Fit                                                        ; Auto Fit                   ; --           ; --         ;
+; FMAX_REQUIREMENT                                       ; 101.58 MHz                                                          ; --                         ; --           ; --         ;
+; IGNORE_CLOCK_SETTINGS                                  ; On                                                                  ; Off                        ; --           ; --         ;
+; IGNORE_LCELL_BUFFERS                                   ; On                                                                  ; Off                        ; --           ; --         ;
+; MAX_CORE_JUNCTION_TEMP                                 ; 85                                                                  ; --                         ; --           ; --         ;
+; MIN_CORE_JUNCTION_TEMP                                 ; 0                                                                   ; --                         ; --           ; --         ;
+; MISC_FILE                                              ; ../rtl/pll.ppf                                                      ; --                         ; --           ; --         ;
+; MISC_FILE                                              ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_virtualjtag.cmp ; --                         ; --           ; --         ;
+; MISC_FILE                                              ; ../DeMiSTify/controller/../EightThirtyTwo/RTL/debug_fifo_altera.cmp ; --                         ; --           ; --         ;
+; NUM_PARALLEL_PROCESSORS                                ; All                                                                 ; --                         ; --           ; --         ;
+; OPTIMIZE_POWER_DURING_FITTING                          ; Off                                                                 ; Normal compilation         ; --           ; --         ;
+; PARTITION_COLOR                                        ; -- (Not supported for targeted family)                              ; --                         ; poseidon_top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL                    ; -- (Not supported for targeted family)                              ; --                         ; poseidon_top ; Top        ;
+; PARTITION_NETLIST_TYPE                                 ; -- (Not supported for targeted family)                              ; --                         ; poseidon_top ; Top        ;
+; PLACEMENT_EFFORT_MULTIPLIER                            ; 4.0                                                                 ; 1.0                        ; --           ; --         ;
+; POWER_BOARD_THERMAL_MODEL                              ; None (CONSERVATIVE)                                                 ; --                         ; --           ; --         ;
+; POWER_PRESET_COOLING_SOLUTION                          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                               ; --                         ; --           ; --         ;
+; PRE_MAPPING_RESYNTHESIS                                ; On                                                                  ; Off                        ; --           ; --         ;
+; PROJECT_OUTPUT_DIRECTORY                               ; output_files                                                        ; --                         ; --           ; --         ;
+; ROUTER_EFFORT_MULTIPLIER                               ; 2.0                                                                 ; 1.0                        ; --           ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL                       ; MAXIMUM                                                             ; Normal                     ; --           ; --         ;
+; TCO_REQUIREMENT                                        ; 5 ns                                                                ; --                         ; --           ; --         ;
+; TH_REQUIREMENT                                         ; 5 ns                                                                ; --                         ; --           ; --         ;
+; TOP_LEVEL_ENTITY                                       ; poseidon_top                                                        ; Apple-I_poseidon-ep4cgx150 ; --           ; --         ;
+; TPD_REQUIREMENT                                        ; 5 ns                                                                ; --                         ; --           ; --         ;
+; TSU_REQUIREMENT                                        ; 5 ns                                                                ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_WINBOND=1                                                     ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_ROWBITS=13                                                    ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_COLBITS=9                                                     ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_CL=2                                                          ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_tCKminCL2=7500                                                ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_tRC=60000                                                     ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_tWR=2                                                         ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; SDRAM_tRP=15000                                                     ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; DEMISTIFY_POSEIDON_EP4CGX150=1                                      ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; I2S_AUDIO=1                                                         ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; USE_AUDIO_IN=1                                                      ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; USE_CLOCK_50=1                                                      ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; BIG_OSD=1                                                           ; --                         ; --           ; --         ;
+; VERILOG_MACRO                                          ; DEMISTIFY=1                                                         ; --                         ; --           ; --         ;
++--------------------------------------------------------+---------------------------------------------------------------------+----------------------------+--------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:22     ; 1.0                     ; 1140 MB             ; 00:00:38                           ;
+; Fitter                    ; 00:00:40     ; 1.1                     ; 1739 MB             ; 00:01:23                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 883 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.3                     ; 1132 MB             ; 00:00:04                           ;
+; Total                     ; 00:01:10     ; --                      ; --                  ; 00:02:10                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; asturix          ; Linux Mint ; 21         ; x86_64         ;
+; Fitter                    ; asturix          ; Linux Mint ; 21         ; x86_64         ;
+; Assembler                 ; asturix          ; Linux Mint ; 21         ; x86_64         ;
+; TimeQuest Timing Analyzer ; asturix          ; Linux Mint ; 21         ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Apple-I_poseidon-ep4cgx150 -c Apple-I_poseidon-ep4cgx150
+quartus_fit --read_settings_files=off --write_settings_files=off Apple-I_poseidon-ep4cgx150 -c Apple-I_poseidon-ep4cgx150
+quartus_asm --read_settings_files=off --write_settings_files=off Apple-I_poseidon-ep4cgx150 -c Apple-I_poseidon-ep4cgx150
+quartus_sta Apple-I_poseidon-ep4cgx150 -c Apple-I_poseidon-ep4cgx150
+
+
+

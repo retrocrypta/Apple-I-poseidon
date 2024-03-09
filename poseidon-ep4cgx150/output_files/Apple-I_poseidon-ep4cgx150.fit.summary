@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat Mar  9 02:30:58 2024
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : Apple-I_poseidon-ep4cgx150
+Top-level Entity Name : poseidon_top
+Family : Cyclone IV GX
+Device : EP4CGX150DF27I7
+Timing Models : Final
+Total logic elements : 1,984 / 149,760 ( 1 % )
+    Total combinational functions : 1,822 / 149,760 ( 1 % )
+    Dedicated logic registers : 803 / 149,760 ( < 1 % )
+Total registers : 803
+Total pins : 77 / 426 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 131,584 / 6,635,520 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 1 / 8 ( 13 % )

@@ -1,0 +1,105 @@
+Assembler report for Apple-I_poseidon-ep4cgx150
+Sat Mar  9 02:31:04 2024
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: Apple-I_poseidon-ep4cgx150.sof
+  6. Assembler Device Options: Apple-I_poseidon-ep4cgx150.rbf
+  7. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Sat Mar  9 02:31:04 2024 ;
+; Revision Name         ; Apple-I_poseidon-ep4cgx150            ;
+; Top-level Entity Name ; poseidon_top                          ;
+; Family                ; Cyclone IV GX                         ;
+; Device                ; EP4CGX150DF27I7                       ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                  ;
++--------------------------------------------------------------------------------------------+
+; File Name                                                                                  ;
++--------------------------------------------------------------------------------------------+
+; /mnt/Teradisk/SOMHIC/Apple1/poseidon-ep4cgx150/output_files/Apple-I_poseidon-ep4cgx150.sof ;
+; /mnt/Teradisk/SOMHIC/Apple1/poseidon-ep4cgx150/output_files/Apple-I_poseidon-ep4cgx150.rbf ;
++--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------+
+; Assembler Device Options: Apple-I_poseidon-ep4cgx150.sof ;
++----------------+-----------------------------------------+
+; Option         ; Setting                                 ;
++----------------+-----------------------------------------+
+; JTAG usercode  ; 0x008D8FFD                              ;
+; Checksum       ; 0x008D8FFD                              ;
++----------------+-----------------------------------------+
+
+
++----------------------------------------------------------+
+; Assembler Device Options: Apple-I_poseidon-ep4cgx150.rbf ;
++---------------------+------------------------------------+
+; Option              ; Setting                            ;
++---------------------+------------------------------------+
+; Raw Binary File     ;                                    ;
+;  Compression Ratio  ; 3                                  ;
++---------------------+------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Processing started: Sat Mar  9 02:30:59 2024
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Apple-I_poseidon-ep4cgx150 -c Apple-I_poseidon-ep4cgx150
+Warning (125092): Tcl Script File pll.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE pll.qip -qip top.qip
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 883 megabytes
+    Info: Processing ended: Sat Mar  9 02:31:04 2024
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
+
+
